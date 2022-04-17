@@ -60,7 +60,6 @@ void timerCallback(TimerID timer)
     if (x >= 1115 && x <= 1200 && y >= 600 && y <= 652) {
 		stopTimer(timer);
 		showMessage("CONGRATULATION!");
-		playSound(sound1);
 		showObject(end);
 	}
     else if (x < 80 || x > 120 && x < 160 && y < 656) { // 区域1死亡
